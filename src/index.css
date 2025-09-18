@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white  font-sans overflow-x-hidden;
+  }
+
+  .nav-menu-items {
+    @apply text-base tracking-wider transition-colors hover:text-gray-300 z-50;
+  }
+}
